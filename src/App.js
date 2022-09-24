@@ -10,7 +10,7 @@ function App() {
       <div className="block n2"></div>
       <div className="block n3"></div>
       <div className="block n4"></div>
-      {/* <img className="tvhead" src={process.env.PUBLIC_URL + `/images/tvhead.png` } alt="" /> */}
+      <img className="tvhead" src={process.env.PUBLIC_URL + `/images/bgi.png` } alt="" />
 
     </div>
   );

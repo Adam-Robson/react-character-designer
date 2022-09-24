@@ -14,7 +14,7 @@ html, body {
 }
 .block {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
 }
 .n1 {
   top: 0;
@@ -27,7 +27,7 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #f9e782ae;
+  background:#8e9cc57b;
   animation: vertical 7.5s linear infinite;
   animation-delay: 1.5s;
 }
@@ -35,7 +35,7 @@ html, body {
   top: 0;
   bottom: 0;
   right: 0;
-  background:#f1f785aa;
+  background:#83b7b28e;
   animation: horizantal 7.5s linear infinite;
   animation-delay: 3s;
 }
