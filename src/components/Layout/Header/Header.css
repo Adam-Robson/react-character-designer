@@ -1,0 +1,11 @@
+.header {
+    position: sticky;
+    top: 0;
+    height: 65px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(158, 174, 177);
+   justify-content: flex-end;
+   font-size:x-large;
+}
