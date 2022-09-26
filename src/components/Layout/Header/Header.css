@@ -5,8 +5,10 @@
     padding: 50px;
     display: flex;
     align-items: center;
-    background-color: #60594D;
-    color: #ffffc7;
+    border: 6px solid #ba5624;
+    background-color: #ffa552;
+    color: #c4d6b0;
     justify-content: flex-end;
-    font-size:xx-large;
+    font-size: 3em;
+    text-align: right;
 }

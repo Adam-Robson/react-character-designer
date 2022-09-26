@@ -1,14 +1,9 @@
 .editor {
-    border: blue solid 1px;
+    display: flex;
+    height: 30%;
+    background-color: #fcde9c;
+    opacity: .5;
 }
-.titleInput {
-    border: red solid 1px;
-}
-
-.captionInput {
-    border: red solid 1px;
-}
-
 .headInput {
-    border: red solid 1px;
+   height: 100%;
 }

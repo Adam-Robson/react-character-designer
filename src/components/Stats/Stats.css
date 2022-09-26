@@ -1,0 +1,28 @@
+.statsContainer {
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+    color: #333232;
+    font-size: .85em;
+}
+
+.headContainer {
+    padding: 10px;
+    background-color: #333232;
+    color: #c4d6b0;
+    margin: 15px;
+}
+
+.torsoContainer {
+    padding: 10px;
+    background-color: #333232;
+    color: #c4d6b0;
+    margin: 15px;
+}
+
+.legsContainer {
+    padding: 10px;
+    background-color: #333232;
+    color: #c4d6b0;
+    margin: 15px;
+}
