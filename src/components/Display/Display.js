@@ -1,27 +1,25 @@
 import './Display.css';
 
-export default function Display({ title, caption, head, torso, legs, count }) {
+export default function Display({ title, caption, head, torso, legs }) {
   return (
     <section className="displayContainer">
-     
+
       <div className="titleDisplayWrap">
-        <p className="titleDisplay">{ title }</p>
+        <span className="titleDisplay">{ title }</span>
       </div>
       <div className="captionDisplayWrap">
-        <p className="captionDisplay">{ caption }</p>
+        <span className="captionDisplay">{ caption }</span>
       </div>
       <div className="headDisplayWrap">
-        <p className="headDisplay">{ head }</p>
+        <span className="headDisplay">{ head }</span>
       </div>
       <div className="torsoDisplayWrap">
-        <p className="torsoDisplay">{ torso }</p>
+        <span className="torsoDisplay">{ torso }</span>
       </div>
       <div className="legsDisplayWrap">
-        <p className="legsDisplay">{ legs }</p>
+        <span className="legsDisplay">{ legs }</span>
       </div>
-      <div className="countDisplayWrap">
-        <p className="countDisplay">There have been { count } changes to { title }.</p>
-      </div>
+      
     </section>
   );
 }

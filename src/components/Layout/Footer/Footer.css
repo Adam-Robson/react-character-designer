@@ -4,6 +4,7 @@
     padding: 7px 20px;
     font-size: 0.7em;
     display: flex;
-    justify-content: flex-end;
-    background-color: rgb(208, 118, 80);
+    justify-content: flex-start;
+    background-color: #60594D;
+    color: #ffffc7;
 }

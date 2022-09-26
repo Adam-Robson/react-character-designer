@@ -1,11 +1,12 @@
-.header .bgi {
+.header {
     position: sticky;
     top: 0;
     height: 65px;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     align-items: center;
-    background-color: rgb(208, 118, 84);
-   justify-content: flex-end;
-   font-size:x-large;
+    background-color: #60594D;
+    color: #ffffc7;
+    justify-content: flex-end;
+    font-size:xx-large;
 }
