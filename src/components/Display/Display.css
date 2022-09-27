@@ -3,46 +3,45 @@
     justify-self: initial;
     align-self: initial;
     color: #333232;
-    border: 3px solid #fcde9c;
-    justify-content: center;
-    align-content: center;
+    height: 700px;
 }
 
-.unhiddenTitle {
+#titleEl {
     height:auto;
     margin: 10px;
     font-family: Jost, Andale Mono, sans-serif;
     font-size: 2em;
     color: #333232;
-    padding: 10px;
-    visibility: visible;
+    padding: 5px;
+
 }
 
-.unhiddenCaption {
+#captionEl {
     font-family: Jost, Andale Mono, sans-serif;
     font-size: 2em;
     color: #6f775a;
-    padding: 10px;
-    visibility: visible;
+    padding: 5px;
+
 }
 
-.unhiddenHead {
+#headEl {
     display:block;
-    visibility: visible;
-
+    position: relative;
+    left: 150px;
 }
 
-.unhiddenTorso {
-
+#torsoEl {
     display: block;
-    visibility: visible;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
 }
 
-.unhiddenLegs {
-    font-family: Jost, Andale Mono, sans-serif;
-    font-size: medium;
+#legsEl {
     display: block;
-    visibility: visible;
+    position: relative;
+    left: 65px;
+    bottom: 90px;
 }
 
 .hidden {

@@ -33,11 +33,13 @@ export default function Main() {
     }
   };
 
+  const toggleElement = (element) => element.style.visibility = 'visible';
+
   return (
-    <main className="container">
+    <main className="mainContainer">
       <Header />
       <Display title={ title } caption={ caption } head={ head } torso={ torso } legs={ legs } />
-      <Editor title={ title } setTitle={ setTitle } caption={ caption } setCaption={ setCaption } headCount={ headCount } torsoCount={ torsoCount } legs={ legsCount } handleChange={ handleChange } />
+      <Editor title={ title } setTitle={ setTitle } caption={ caption } setCaption={ setCaption } headCount={ headCount } torsoCount={ torsoCount } legs={ legsCount } handleChange={ handleChange } toggleElement={ toggleElement } />
       <Stats headCount={ headCount } torsoCount={ torsoCount } legsCount={ legsCount } />
       <Footer />
     </main>

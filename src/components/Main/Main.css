@@ -1,16 +1,12 @@
-.container {
+.mainContainer {
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
-  grid-template-rows: 1.5fr 5fr 1.5fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 6fr 3fr 1fr;
+  grid-template-rows: 1.5fr 6fr 2.5fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
-    "header header header"
-    "editor display ."
-    "count count ."
-    "footer footer footer";
+    "header header header header"
+    ". display editor editor"
+    ". count count ."
+    "footer footer footer footer";
 }
-
-.editor { grid-area: editor; }
-.display { grid-area: display; }
-.count { grid-area: count; }
-.footer { grid-area: footer; }

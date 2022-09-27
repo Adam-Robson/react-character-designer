@@ -1,31 +1,23 @@
 .headerContainer {
-    grid-area: 1 / 1 / 2 / 4;
-    justify-self:initial;
-    align-self: initial;
+    grid-area: 1 / 1 / 2 / 5;
+    display: flex;
+    justify-content:flex-end;
+    align-items: bottom;
     position: sticky;
     top: 0;
     color: #c4d6b0;
     background-color: #333232;
     text-align: right;
-    padding: 40px;
+    padding: 5px;
 }
 
 .header {
     grid-area: 1 / 1 / 2 / 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     justify-self:initial;
     align-self: initial;
-    font-size: 3em;
+    font-size: 2.5em;
+
 }
-/*
-header {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    height: 50px;
-    background-color: blanchedalmond;
-    color: #282c34;
-    padding: 10px;
-    justify-content: right;
-    align-items:flex-end;
-    font-size: xx-large;
-} */
