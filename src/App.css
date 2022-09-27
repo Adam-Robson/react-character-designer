@@ -23,14 +23,14 @@ html, body {
   top: 0;
   bottom: 0;
   left: 0;
-  background:#ffb44387;
+  background:#f6feaab7;
   animation: horizantal 7.5s linear infinite;
 }
 .n2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background:#8e9cc57b;
+  background:#fba089c1;
   animation: vertical 7.5s linear infinite;
   animation-delay: 1.5s;
 }
@@ -38,7 +38,7 @@ html, body {
   top: 0;
   bottom: 0;
   right: 0;
-  background:#83b7b28e;
+  background:#c7dfc5d1;
   animation: horizantal 7.5s linear infinite;
   animation-delay: 3s;
 }
@@ -46,7 +46,7 @@ html, body {
   left: 0;
   right: 0;
   top: 0;
-  background: #b8f8eaa3;
+  background: #9ec0b9a3;
   animation: vertical 7.5s linear infinite;
   animation-delay: 4.5s;
 }

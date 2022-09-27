@@ -10,32 +10,40 @@
     height: 30%;
     padding: 15px;
     gap: 5px;
+
   }
 
 .titleInput {
     display: block;
     margin: 20px;
-
+    font-size: .5em;
 }
 
 .captionInput {
     display: block;
     margin: 20px;
-
-
+    font-size: .5em;
 }
 
 #headInput {
     display: block;
     margin: 20px;
+    font-size: .5em;
 }
 
 #torsoInput {
     display: block;
     margin: 20px;
+    font-size: .5em;
+}
+
+label {
+    font-size: 2em;
+    margin-left: 17px;
 }
 
 #legsInput {
     display: block;
     margin: 20px;
+    font-size: .5em;
 }

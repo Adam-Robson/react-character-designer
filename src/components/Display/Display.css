@@ -11,39 +11,37 @@
     margin: 10px;
     font-family: Jost, Andale Mono, sans-serif;
     font-size: 2em;
-    color: #333232;
-    padding: 5px;
+    color: #392648;
+    padding: 15px;
 
 }
 
 #captionEl {
     font-family: Jost, Andale Mono, sans-serif;
     font-size: 2em;
-    color: #6f775a;
-    padding: 5px;
+    color: #394648;
+    padding: 15px;
 
 }
 
 #headEl {
     display:block;
     position: relative;
-    left: 150px;
+    top: 50px;
+    left: 45px;
+
 }
 
 #torsoEl {
     display: block;
     position: relative;
-    left: 100px;
-    bottom: 30px;
+    top: 20px;
+
 }
 
 #legsEl {
     display: block;
     position: relative;
-    left: 65px;
-    bottom: 90px;
-}
+    right: 30px;
 
-.hidden {
-    visibility: hidden;
 }
