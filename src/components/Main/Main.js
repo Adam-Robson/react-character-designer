@@ -19,15 +19,15 @@ export default function Main() {
   const [legsCount, setLegsCount] = useState(0);
 
   const handleChange = (kind, value) => {
-    if (kind === 'head'){
+    if (kind === 'headCount'){
       setHead(value);
       setHeadCount((prevCount) => prevCount + 1);
     }
-    if (kind === 'torso'){
+    if (kind === 'torsoCount'){
       setTorso(value);
       setTorsoCount((prevCount) => prevCount + 1);
     }
-    if (kind === 'legs'){
+    if (kind === 'legsCount'){
       setLegs(value);
       setLegsCount((prevCount) => prevCount + 1);
     }
@@ -37,7 +37,7 @@ export default function Main() {
     <main className="container">
       <Header />
       <Display title={ title } caption={ caption } head={ head } torso={ torso } legs={ legs } />
-      <Editor title={ title } setTitle={ setTitle } caption={ caption } setCaption={ setCaption } head={ head } torso={ torso } legs={ legs } handleChange={ handleChange } />
+      <Editor title={ title } setTitle={ setTitle } caption={ caption } setCaption={ setCaption } headCount={ headCount } torsoCount={ torsoCount } legs={ legsCount } handleChange={ handleChange } />
       <Stats headCount={ headCount } torsoCount={ torsoCount } legsCount={ legsCount } />
       <Footer />
     </main>

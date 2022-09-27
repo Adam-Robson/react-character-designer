@@ -1,6 +1,50 @@
 .displayContainer {
-    height: 680px;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: initial;
+    align-self: initial;
+    color: #333232;
+    border: 3px solid #fcde9c;
+    justify-content: center;
+    align-content: center;
+}
+
+.unhiddenTitle {
+    height:auto;
+    margin: 10px;
+    font-family: Jost, Andale Mono, sans-serif;
+    font-size: 2em;
+    color: #333232;
+    padding: 10px;
+    visibility: visible;
+}
+
+.unhiddenCaption {
+    font-family: Jost, Andale Mono, sans-serif;
+    font-size: 2em;
+    color: #6f775a;
+    padding: 10px;
+    visibility: visible;
+}
+
+.unhiddenHead {
+    display:block;
+    visibility: visible;
+
+}
+
+.unhiddenTorso {
+
     display: block;
+    visibility: visible;
+}
 
+.unhiddenLegs {
+    font-family: Jost, Andale Mono, sans-serif;
+    font-size: medium;
+    display: block;
+    visibility: visible;
+}
 
+.hidden {
+    visibility: hidden;
 }

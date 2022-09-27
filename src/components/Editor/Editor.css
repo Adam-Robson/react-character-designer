@@ -1,9 +1,53 @@
 .editor {
-    display: flex;
-    height: 30%;
-    background-color: #fcde9c;
-    opacity: .5;
+    grid-area: 2 / 1 / 3 / 2;
+
+    align-self: initial;
+    font-size: calc(10px + 1vmin);
+    padding: 10px;
+    justify-self: center;
+    padding: 7px;
+
 }
-.headInput {
-   height: 100%;
+
+.titleContainer {
+    padding: 15px;
+
+}
+
+.captionContainer {
+    padding: 15px;
+}
+
+.titleInput {
+
+    background-color: #c4d6b0;
+
+    width: 200px;
+       padding: 7px;
+}
+
+.captionInput    {
+
+    background-color: #c4d6b0;
+    padding: 5px;
+    width: 200px;
+}
+
+#headInput {
+    padding: 7px;
+    width: 150px;
+    margin: 35px;
+}
+
+
+#torsoInput {
+    padding: 7px;
+    width: 150px;
+    margin: 35px;
+}
+
+#legsInput {
+    padding: 5px;
+    width: 150px;
+    margin: 35px;
 }

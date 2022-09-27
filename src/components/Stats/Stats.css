@@ -1,26 +1,29 @@
-.statsContainer {
-    display: flex;
-    padding: 25px;
-    margin: 25px;
-    color: #333232;
-    font-size: .85em;
+.count {
+    grid-area: 3 / 1 / 4 / 3;
+    justify-self: initial;
+    align-self: initial;
+
 }
 
-.headContainer {
+.headCount {
+    text-align: left;
+    padding: 10px;
+    background-color: #333232;
+    color: #c4d6b0;
+    margin: 15px;
+
+}
+
+.torsoCount {
+    text-align: left;
     padding: 10px;
     background-color: #333232;
     color: #c4d6b0;
     margin: 15px;
 }
 
-.torsoContainer {
-    padding: 10px;
-    background-color: #333232;
-    color: #c4d6b0;
-    margin: 15px;
-}
-
-.legsContainer {
+.legsCount {
+    text-align: left;
     padding: 10px;
     background-color: #333232;
     color: #c4d6b0;

@@ -3,23 +3,15 @@ import './Display.css';
 export default function Display({ title, caption, head, torso, legs }) {
   return (
     <section className="displayContainer">
-
-      <div className="titleDisplayWrap">
-        <span className="titleDisplay">{ title }</span>
-      </div>
-      <div className="captionDisplayWrap">
-        <span className="captionDisplay">{ caption }</span>
-      </div>
-      <div className="headDisplayWrap">
-        <span className="headDisplay">{ head }</span>
-      </div>
-      <div className="torsoDisplayWrap">
-        <span className="torsoDisplay">{ torso }</span>
-      </div>
-      <div className="legsDisplayWrap">
-        <span className="legsDisplay">{ legs }</span>
-      </div>
-      
+      <div id="titleEl" className="unhiddenTitle">{title}</div>
+      <div id="captionEl" className="unhiddenCaption">{ caption }</div>
+      <img id="headEl" className="unhiddenHead" src={process.env.PUBLIC_URL + `/images/${ head }.png`} />
+      <img id="torsoEl" className="unhiddenTorso" src={process.env.PUBLIC_URL + `/images/${ torso }.png`} />
+      <img id="legsEl" className="unhiddenLegs" src={process.env.PUBLIC_URL + `/images/${ legs }.png`} />
     </section>
   );
 }
+
+
+
+// className="hidden" onChange={(e) => { (e.target.className.remove.hidden); }}
