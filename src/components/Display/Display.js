@@ -7,7 +7,7 @@ export default function Display({ title, caption, head, torso, legs }) {
       <div id="captionEl">{ caption }</div>
       <img id="headEl" style={ { display: `${ head }` ? 'block' : 'none' }} src={ process.env.PUBLIC_URL + `/images/${ head }.png` } />
       <img id="torsoEl" style={ { display: `${ torso }` ? 'block' : 'none' }} src={process.env.PUBLIC_URL + `/images/${ torso }.png`} />
-      <img id="legsEl" style={ { display: `${ legs }` ? 'block' : 'none' }} src={process.env.PUBLIC_URL + `/images/${ legs }.png`} />
+      <img id="legsEl" style={ { display: `${legs}` ? 'block' : 'none' } } src={ process.env.PUBLIC_URL + `/images/${legs}.png` } />
     </section>
   );
 }

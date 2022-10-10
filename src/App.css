@@ -1,6 +1,8 @@
+/* #f6bd60, #f7ede2, #f5cac3, #84a59d, #f28482 */
+
 html, body {
   box-sizing: border-box;
-  height: auto;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -23,14 +25,14 @@ html, body {
   top: 0;
   bottom: 0;
   left: 0;
-  background:#f6feaab7;
+  background:#f6bd60;
   animation: horizantal 7.5s linear infinite;
 }
 .n2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background:#fba089c1;
+  background:#f7ede2;
   animation: vertical 7.5s linear infinite;
   animation-delay: 1.5s;
 }
@@ -38,7 +40,7 @@ html, body {
   top: 0;
   bottom: 0;
   right: 0;
-  background:#c7dfc5d1;
+  background:#f5cac3;
   animation: horizantal 7.5s linear infinite;
   animation-delay: 3s;
 }
@@ -46,7 +48,7 @@ html, body {
   left: 0;
   right: 0;
   top: 0;
-  background: #9ec0b9a3;
+  background: #84a59d;
   animation: vertical 7.5s linear infinite;
   animation-delay: 4.5s;
 }

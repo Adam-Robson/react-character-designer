@@ -3,24 +3,24 @@
     justify-self: initial;
     align-self: initial;
     color: #333232;
-    height: 700px;
+    height: 100%;
 }
 
 #titleEl {
     height:auto;
-    margin: 10px;
+    margin: 5px;
     font-family: Jost, Andale Mono, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     color: #392648;
-    padding: 15px;
+    padding: 5px;
 
 }
 
 #captionEl {
     font-family: Jost, Andale Mono, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     color: #394648;
-    padding: 15px;
+    padding: 5px;
 
 }
 

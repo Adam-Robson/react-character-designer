@@ -1,49 +1,49 @@
 .editor {
     grid-area: 2 / 3 / 3 / 5;
     padding: 10px;
-    color: #333232;
+    color: #f28482;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 30%;
-    padding: 15px;
+    height: 50%;
+    padding: 10px;
     gap: 5px;
 
   }
 
 .titleInput {
     display: block;
-    margin: 20px;
-    font-size: .5em;
+    margin: 10px;
+    font-size: .1em;
 }
 
 .captionInput {
     display: block;
-    margin: 20px;
-    font-size: .5em;
+    margin: 10px;
+    font-size: .1em;
 }
 
 #headInput {
     display: block;
-    margin: 20px;
-    font-size: .5em;
+    margin: 10px;
+    font-size: .1em;
 }
 
 #torsoInput {
     display: block;
-    margin: 20px;
-    font-size: .5em;
+    margin: 10px;
+    font-size: .1em;
 }
 
 label {
-    font-size: 2em;
-    margin-left: 17px;
+    font-size: 1em;
+    margin-left: 10px;
 }
 
 #legsInput {
     display: block;
-    margin: 20px;
-    font-size: .5em;
+    margin: 10px;
+    font-size: .1em;
 }

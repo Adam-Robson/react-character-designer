@@ -6,28 +6,20 @@
 }
 
 .headCount {
+    color: #333232;
     text-align: left;
-    padding: 10px;
-    background-color: #333232;
-    color: #c7dfc5;
-    margin: 15px;
+    margin: 5px;
     width: fit-content;
-
-
 }
 
 .torsoCount {
     text-align: left;
-    padding: 10px;
-    background-color: #333232;
-    color: #c7dfc5;
-    margin: 15px;
+    color: #333232;
+    margin: 5px;
 }
 
 .legsCount {
     text-align: left;
-    padding: 10px;
-    background-color: #333232;
-    color: #c7dfc5;
-    margin: 15px;
+    color: #333232;
+    margin: 5px;
 }
