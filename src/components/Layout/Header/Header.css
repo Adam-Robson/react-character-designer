@@ -1,0 +1,23 @@
+.headerContainer {
+    grid-area: 1 / 1 / 2 / 5;
+    display: flex;
+    justify-content:flex-end;
+    align-items: bottom;
+    position: sticky;
+    top: 0;
+    color: #c7dfc5;
+    background-color: #333232;
+    text-align: right;
+    padding: 5px;
+    height: 75px;
+}
+
+.header {
+    grid-area: 1 / 1 / 2 / 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-self:initial;
+    align-self: initial;
+    font-size: 2.0em;
+}

@@ -1,0 +1,12 @@
+.mainContainer {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 6fr 3fr 1fr;
+  grid-template-rows: 1.5fr 6fr 2.5fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header header header"
+    ". display editor editor"
+    ". count count ."
+    "footer footer footer footer";
+}

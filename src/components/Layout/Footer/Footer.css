@@ -1,0 +1,11 @@
+.footerContainer {
+    grid-area: 4 / 1 / 5 / 5;
+    position: fixed;
+    bottom: 0;
+    font-size: 1em;
+    background-color: #333232;
+    color: #c7dfc5;
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+}
