@@ -39,7 +39,7 @@ export default function Main() {
     <main className="mainContainer">
       <Header />
       <Display title={ title } caption={ caption } head={ head } torso={ torso } legs={ legs } />
-      <Editor title={ title } setTitle={ setTitle } caption={ caption } setCaption={ setCaption } captions={ captions } setCaptions={ setCaptions } headCount={ headCount } torsoCount={ torsoCount } legs={ legsCount } handleChange={ handleChange } toggleElement={ toggleElement } />
+      <Editor title={ title } setTitle={ setTitle } caption={ caption } setCaption={ setCaption } head={ head } torso={ torso } legs={ legs } handleChange={ handleChange } toggleElement={ toggleElement } />
       <Stats headCount={ headCount } torsoCount={ torsoCount } legsCount={ legsCount } captions={ captions } setCaptions={ setCaptions } />
       <Footer />
     </main>
